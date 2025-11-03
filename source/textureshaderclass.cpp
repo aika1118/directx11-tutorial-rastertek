@@ -363,3 +363,5 @@ void TextureShaderClass::RenderShader(ID3D11DeviceContext* deviceContext, int in
 
 	return;
 }
+
+// 1.
