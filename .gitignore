@@ -1,0 +1,15 @@
+*
+
+!source/
+!source/**
+
+!include/
+!include/**
+
+!data/
+!data/**
+
+!shader/
+!shader/**
+
+!.gitignore
