@@ -145,7 +145,7 @@ bool TextureClass::LoadTarga32Bit(char* filename)
 	bpp = (int)targaFileHeader.bpp;
 
 	// Check that it is 32 bit and not 24 bit.
-	if (bpp != 32)
+	if (bpp != 32 && bpp != 24)
 	{
 		return false;
 	}
